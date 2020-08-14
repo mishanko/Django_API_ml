@@ -24,8 +24,7 @@ class SentimentView(viewsets.ModelViewSet):
 # @api_view(["POST"])
 def classifier(unit):
     try:
-        path_to_artifacts = "../../research_package/"
-        model = fasttext.load_model("/Users/mihailmihaylov/Desktop/Data_science/Проекты/Greenatom/review_project/Django_API_ml/Django_API/Django_API/MyAPI/research_package/model_review_fasttext_sentiment.bin") # Загружаем модель
+        model = fasttext.load_model("model_review_fasttext_sentiment.bin") # Загружаем модель
 
         # Обработываем текста
         text = re.sub('<[^>]*>', '', str(unit))
