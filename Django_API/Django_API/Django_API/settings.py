@@ -26,7 +26,7 @@ SECRET_KEY = '!l_v7vif6i!vbuf$qr#0bcg&0%h$4*q#87v005&*-p!ir(%_e)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://reviewclassifier-withdjango.herokuapp.com', '.herokuapp.com']
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
