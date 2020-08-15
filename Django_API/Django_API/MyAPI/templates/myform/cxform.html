@@ -12,36 +12,29 @@
 {% load crispy_forms_tags %}
 	<div class = "mx-2 my-5">
 		<div class="container-fluid">
-			<div class="row" style="background-color:#94baf2">
+			<div class="row" style="background-color:#e0708a">
 				<div class="col-sm-4">
-					<!-- <img src="{% static '/images/жопка.png' %}" alt="Banner" style="width:500px;height:250px;"></img> -->
+					<img src="https://cdn.disney.ru/assets/w1386/34d7aed7-15e7-41a5-b866-bab5c232bb86.png" style="width:500px;height:450px;"></img>
 				</div>
 				<div class="col-sm-4">
-					<!-- <img src="{% static '/images/boobies.jpg' %}" alt="Powered By Python" style="width:500px;height:250px;"></img> -->
+					<img src='https://cdn.disney.ru/assets/w1386/b2580274-f381-4112-b024-75721528583e.png' style="width:500px;height:450px;"></img>
 				</div>
 				<div class="col-sm-4">
-					<!-- <img src="{% static '/images/social.png' %}" alt="Social" style="width:500px;height:250px;"></img> -->
+					<img src="https://cdn.disney.ru/assets/w1386/62ac6472-5c37-40a1-8fef-578cddb84e40.png" style="width:500px;height:450px;"></img>
 				</div>
 			</div>
-			<div class="row" style="background-color:#94baf2"><br></div>
-			<div class="row" style="background-color:#bcd2f4">
+			<div class="row" style="background-color:#e0708a"><br></div>
+			<div class="row" style="background-color:#e9bcf4">
 				<div class="col-sm-8"></div>
 
 				<div class="col-sm-4">
-					<table style="border-collapse: separate; border-spacing: 15px;">
-						<td><h3>Home</h3></td>
-						<td><h3>About</h3></td>
-						<td><h3>Products</h3></td>
-						<td><h3>Services</h3></td>
-						<td><h3>Contact</h3></td>
-					</table>
 
 				</div>
 			</div>
 			<div class="row">
 				<div class= "col"></div>
 				<div class = "col-6 my-5">
-					<h1>Small Loans Form</h1><br>
+					<h1>Review Classifier</h1><br>
 					<form method='post'>
 						{% csrf_token %}
 						{{form|crispy}}
